@@ -1,0 +1,6 @@
+.ant-layout-header {
+  transition: background-color 0s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+.ant-pro-global-header {
+  transition: background-color 0s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}

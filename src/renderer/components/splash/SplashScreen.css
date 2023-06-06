@@ -1,0 +1,36 @@
+.splash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #6fbbd6;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+}
+
+.splash_icon_hide {
+  margin-left: 20px;
+  margin-top: -9px;
+  width: 256px;
+  transition: opacity 0.5s;
+  display: block;
+  text-align: center;
+  opacity: 0;
+}
+
+.splash_icon {
+  margin-left: 20px;
+  margin-top: -9px;
+  width: 256px;
+  transition: opacity 0.5s;
+  display: block;
+  text-align: center;
+  opacity: 1;
+}
+
+.version_text {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+}
